@@ -1,0 +1,43 @@
+.about-me {
+  margin-inline: 2rem;
+  color: white !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  margin-top: 20px;
+}
+
+.about-me-welcome {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: 1.3rem;
+}
+
+.about-me section {
+  margin-bottom: 10rem;
+  border-bottom: 2px solid rgba(3, 0, 27, 0.682);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social-ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.social-img {
+    margin-right: 1rem;
+    width: 50px;
+}
+
+.social-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-ul li a:hover {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,151 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="about-me">
+    <section id="about-me">
+        <h1>Get To Know Me</h1>
+        <p className="about-me-welcome">Hey there! My name is Bladon Garland. I am a full-stack web developer, solutions architect, embedded systems developer, engineer, business owner, and soon to be .Net developer.</p>
+        <p>My hobbies are:</p>
+        <ul>
+            <li>Coding</li>
+            <li>Engineering</li>
+            <li>Entrepreneurship</li>
+            <li>
+                Sports
+                <ul>
+                    <li>Wrestling</li>
+                    <li>Long boarding</li>
+                    <li>Snow boarding and skiing</li>
+                    <li>Golf</li>
+                </ul>
+            </li>
+            
+            <li>
+                PC Gaming
+                <ul>
+                    <li>Rainbow Six Siege</li>
+                    <li>Crusader Kings III</li>
+                    <li>Call of Duty</li>
+                </ul>
+            </li>
+
+        </ul>
+
+        <h1> Fun Facts </h1>
+        <ul>
+            <li>I began coding at 11 because I saw hacker movies and wanted to become a hacker!</li>
+            <li>I have lived in 5 states and have moved a total of around 13 times.</li>
+            <li>I am an All-Ohioan in track</li>
+            <li>I've spent the last 7 years of my life on a farm</li>
+        </ul>
+
+    </section>
+
+    <section id="projects">
+        <h2>Cloudimate</h2>
+        <h5>My largest scale project and first web-app, Cloudimate.</h5>
+        <p>This project originated from an internship I took. It was built to help the company automate services in AWS and create a centrallized location for the organizations costs.
+           After my internship, I needed a project I could display for employers to show that I am competent in web developement and so after receieving permission from my employer, I worked towards making the web app better.
+           I decided that the app should cover the expenses involved in creating it and so I had to go all out to make an application that people would pay for.
+           Cloudimate consists of 1 RDS mysql database and two EC2 instances. It is an API style application using React JS, Node JS, and Tailwind on the frontend. On the backend it uses Laravel. The project consists of 30,000 lines of code.
+        </p>
+
+        <h1>Hill Billy Tesla</h1>
+        <h5>My first large scale embedded systems project.</h5>
+        <p>
+            This project was created during my senior year in highschool at a technical school -- Buckeye Career Center. 
+            The project began with a base RC car. From there, I hooked up an after market ESC and burnt through 2 servos trying to figure out how to control them.
+            The first prototype was simply a plastic sheet mounted on the car to mount sensors to the car. Originally, that car was designed with
+            2 Lidar and 3 super sonic sensors. After realizing I didn't have time to work with Kalman Filtering, I went with a GPS and Magnetometer instead.
+            After some time I finally got the car to steer and move. The first script made to control the car was simply making it face towards north using the magnetometer.
+            Most of the time spent in the first month of this car was simply trying to get the car to move and the sensors to work. I tried 4 differnt brands of GPS until I finally got a 300 dollar U-Blox GNSS.
+            After that, development was rapid, a friend of mine designed the 3D printed body for it so it looked cool and could mount sensors. The windshield was actually an LCD. The wiring was beginning to get complicated 
+            and I was running out of ports on the Arduino Mega so I learned how to design PCB's and ordered a few. I found out that the magnetometer wasn't accurate enough so I ordered a adafruit IMU which made a world of difference. The day before the competition (1 months and around 3 weeks in) I had the car run properly for the first time.
+            I didn't sleep for two days straight to make sure the car was competition ready. At the competition, I accidentally shorted the battery which destroyed the GNSS and IMU. I worked for hours to get it working again but did not realise the IMU was broken which caused me to perform poorly at the competition.
+            After the competition, I worked to refine that car mechanically, programatically, and asthetically. Eventually the Digital Electronics competition came up and I won. The project totalled 600 hours over 2 months or on average 10 hours per day.  
+        </p>
+
+        <h1>Side Projects</h1>
+        <p>
+            <ul>
+                <li>
+                    Mini PLTW - Built a work bench, bought a 3D printer, CNC mill, Soldering Iron, and more.
+                </li>
+                <li>
+                    Electric Longboards - Built two electric longboards. One uses 900 watts of power and gets up to 27 MPH. Custom built the battery packs.
+                </li>
+                <li>
+                    Flappy Bird On A Terminal - my first time using Python, I decided to build flappy bird on the Codecademy terminal. it used [] for blocks and . for empty space. 
+                </li>
+                <li>
+                    Tic Tac Toe AI - My second time using Python, I attempted to build a Tic Tac Toe AI using pygame. There were a few bugs but it mostly worked. 
+                </li>
+                <li>
+                    My first website - I started a power washing company in highschool and figured it needed a website to look professional. occpowerwash.com was the first website I ever made. It was simple, built from raw HTML, CSS, and JS. I somehow hooked up google sheets to it as a way for customers to contact me. 
+                </li>
+            </ul>
+        </p>
+    </section>
+
+    <section id="education">
+        <h1>Education</h1>
+        <h4>Before Middle School</h4>
+        <p>I was put into a gifted program when I was young. I began studying the stock market and programming during this time. By 12 years of age, I learned HTML, CSS, and JS. Fun fact: my teachers thought I was mentally challenged until I was tested and turned out to be gifted.</p>
+        <h4>Middle School</h4>
+        <p>I was a bit of a trouble child in school. After being sent to the principles office, the principle talked with me and realised I needed harder work and tested me. The tests showed I was well beyond my class in math and so they skipped me a grade of math. During this time I was experimenting with Scratch and making video games constantly.</p>
+        <h4>Highschool</h4>
+        <ul>
+            <li>
+                Freshman year:
+                <p>I worked diligently to get into a good college. I was skipped another grade of math freshman year. At the same time, I continued learning about programming and business</p>
+            </li>
+            <li>
+                Sophomore Year:
+                <p>I began taking college classes sophomore year. At the same time, I also began taking calculus. That same year I started two companies. I started a power washing and Amazon Seller company. The power washing company did well but the Amazon company was shut down by Amazon because they felt like it. This was also the year I learned enough web development to make my first website.</p>
+            </li>
+            <li>
+                Junior Year:
+                <p>Mostly insignificant. I took around 5 college classes that year. It was also the year that I made my company a legal body and took on my first commercial power washing contract.</p>
+            </li>
+            <li>
+                Senior Year:
+                <p>I began studying microcontrollers the summer of my junior year. I decided to go to Buckeye Career Center for business. When I got there and told the teacher I had owned a company for two years they decided I should try something else and so I ended up in PLTW. In PLTW, I learned how to 3D print and 3D model. I also won a Zumo Bot competition out of 34 competitors. I lost a single round out of 64. Soon after, I began the autonomous car project where I learned PCB design, Control Theory, and significantly improved my embedded systems programming capabilities. While all of this was happening, I took around 8 semester classes.  </p>
+            </li>
+        </ul>
+        <h4>After Highschool</h4>
+        
+                <h4>Internship</h4>
+                <p>I decided not to go to college because I didn't want it to hinder my education. I took an internship doing web development. From that, I learned the basics of Linux systems, picked up Flask, React JS, and Laravel, and got the Cloud Practitoner and Solutions Architect Certification.</p>
+            
+                <h4>Cloudimate</h4>
+                <p>I became significantly better at web development.</p>
+          
+            
+        </ul>
+        <p>In highschool, I worked diligently </p>
+    </section>
+
+    <section id="experience">
+        <h1>Experience</h1>
+        <h4>ECOESC</h4>
+        <ul>
+            <li>
+                Learned how to use collaborative software such as Github.
+            </li>
+            <li>
+                Worked in a development team to build Cloud Control or Cloudimate as it's now named.
+            </li>
+        </ul>
+    </section>
+
+    <section id="social" class="social">
+        <ul class="social-ul">
+            <li><a href="https://www.linkedin.com/in/bladon-garland-b99886228/details/skills/"><img class="social-img" src="/images/linkedin.png">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/bladon_garland/"><img class="social-img" src="/images/ig-icon.png">Personal Instagram</a></li>
+            <li><a href="https://github.com/BladonGarlanddev"><img class="social-img" src="/images/github-logo.png">Github</a></li>
+        </ul>
+    </section>
+</div>

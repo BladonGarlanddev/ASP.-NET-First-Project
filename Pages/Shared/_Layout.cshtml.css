@@ -1,0 +1,36 @@
+﻿html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  margin-block: 1rem;
+  position: fixed;
+  width: 100%;
+  background: var(--primary-color);
+  top: 0;
+  margin-top: 0;
+  padding-block: 1rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  list-style-type: none; /* Removes the default list bullet points */
+  margin: 0; /* Removes the default margin */
+  padding: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+}
+
+.nav-list a:hover {
+  color: rgb(202, 215, 255);
+}

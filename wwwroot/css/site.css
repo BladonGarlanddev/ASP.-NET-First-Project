@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #1D2340;
+  --primary-dark: #161B30;
+  --secondary-color: #3B4A70;
+  --white-text-hover: rgb(202, 215, 255);
+}
+
+html {
+  font-size: 14px;
+  background: var(--primary-color);
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background: var(--primary-color);
+}
+
+header {
+  background: var(--primary-color);
+}
